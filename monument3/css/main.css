@@ -1,0 +1,221 @@
+*{
+	margin:0;
+	border:0;
+}
+
+.nav{
+	display: flex;
+	justify-content: center;
+	position: fixed;
+}
+
+.nav a{
+	color:#00CED1;
+	padding:2em 4em 2em 4em;
+	font-size:-4em;
+}
+
+.picture img{
+	width:100%;
+	margin-top: 10px;
+	margin-bottom:10px;
+	margin-left:135px;
+	color: #006400;
+}
+
+.main img{
+   width:75%;
+  margin-left:150px;
+ 
+}
+
+.main p{
+	width:75%;
+	margin-left:150px;
+	margin-bottom:;
+	font-weight:normal;
+}
+
+.photo1{
+	position:relative;
+	z-index:1;
+}
+
+.main hr{
+	position: relative;
+	z-index:2;
+	top:-450px;
+	border-color: #00CED1;
+	border: dotted;
+}
+
+.aside{
+	margin-left: 150px
+}
+.aside span p{
+ 	font-size:25px;
+ } 
+
+.aside .normal{
+ 	font-weight:normal;
+ }
+
+ .aside img{
+ 	margin-bottom: 10px;
+ }
+
+ .aside ul li{
+ 	font-weight:bolder;
+ 	color:#00CED1 ;
+ }
+
+
+
+ .social-icons {
+  text-align: center;
+  }  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  z-index: 2;
+
+  }
+.social-icons li img {
+  width:30px;
+  height:30px;
+  margin-right: 20px;
+} 
+
+.sara{
+	list-style: none;
+	text-align: center;
+	font-weight: normal;
+	padding: 5px;
+}
+
+.footer{
+	background-color: blue;
+	z-index: 1;
+	padding: 30px 30px 30px 30px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.aside .normal{
+	margin-right:150px;
+} 
+
+input[type=button]{
+    background-color: #4CAF50;
+    border: none;
+    color: yellow;
+    padding: 6px 10px;
+    text-decoration: none;
+    margin: 15px 30px;
+    cursor: pointer;
+}
+
+/*.column {
+    float: left;
+    width: 50%;
+}
+
+
+
+/* Clear floats after the columns */
+/**.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}**/
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+}
+
+.input{
+	display: flex;
+	justify-content: center;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 320px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+}
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 768px) {
+  .nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
